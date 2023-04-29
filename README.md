@@ -38,14 +38,14 @@ Preparation for InOutDoor (from scratch, in case you need it)
     Test set:
         line 80: if video_name == "seq3"
         line 116: save_path = './inout_seq3_new.val' #can be anything but that's what I used
-================================================================================================================================================
+======================================================================================================
 resnet50:
     in main.py line 66: '--backbone' is set to resnet50 (currently resnet18)
     in models/backbone.py: uncomment lines 76~78 and comment out lines 80~82
                           uncomment lines 85, 87 and comment out lines 86,88  
 (the code is for resnet18 right now) 
 
-================================================================================================================================================
+======================================================================================================
 <Results>
 MOT15:
  In eval.py: change data path in lines 271 ~ 272, 348 (currently set to InOutDoor)
